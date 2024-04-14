@@ -39,17 +39,24 @@
                 font-weight: bold;
                 font-size: 20px;
                 margin-left: 20px;
+                cursor: pointer;
             }
             .left-section {
                 display: flex;
                 padding-left: 15px;
+                align-items: center;
+            }
+            .web-icon {
+                height: 50px;
             }
             .page1, .page2, .page3, .page4 {
-                margin-right: 15px;
+                margin-right: 50px;
+                cursor: pointer;
             }
             .right-section {
                 display: flex;
                 align-items: center;
+                margin-right: 30px;
             }
             .linkedin-icon {
                 height: 35px;
@@ -168,7 +175,8 @@
     <body>
         <div class="header">
             <div class="left-section">
-                <p class="title-element">Brian Chiem</p>
+                <img class="web-icon" src="images/icons8-b-50.png">
+                <p class="title-element" onclick="window.location.reload();">Brian Chiem</p>
             </div>
             <!-- <div class="middle-section">
                 <p class="title-element">Brian Chiem</p>  
